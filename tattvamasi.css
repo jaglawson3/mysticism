@@ -1,13 +1,40 @@
 
+body{
+	background: -webkit-linear-gradient(black, orange); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, orange); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, orange); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, orange);
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	text-align: center;
+	font-family: serif;
+	font-size: 24;
+}
 
+.imagery {
+		display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden
+		flex-direction: row;
+		flex-wrap: wrap;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		-webkit-box-align: center;
+}
+
+.tvt1, .tvt2, .tvt3, .tvt4, .tvt5 {
+		height: 180px;
+	}
 
 h1{
-	text-align:center; color:blue;position:relative; z-index:2;
+	color:blue;
 }
 
 .words{
-	text-align:justify; color:black;position:relative;z-index:1;
-}
+	color:black;
+	}
 
 .rectangle{
 	height:100%;width:100%;background:orange;opacity:0.7;position:relative;z-index:-1;
